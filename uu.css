@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    background-color: #ececec;
+    color: #000000;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 5% 10%;
+    
+
+}
+.header {
+    font-size: 1.5rem;
+}
+
+.parent-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 3rem;
+
+}
+.parent-container > div {
+    border: 1px solid#000000;
+    padding: 2rem;
+    background-color: #ffffff;
+    
+}
+
+.child-2 {
+    grid-column: 2 / span 3;
+}
+.solver {
+    display: grid;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.solver > input,select {
+    font-size: 1rem;
+    padding: .7rem;
+    
+}
+select {
+    border: 0;
+}
+input[type = text]:focus {
+    outline: none;
+
+}
+
+input[type = button]{
+    width: 30%;
+    margin-top: .7rem;
+    background-color: #3584e4;
+    color: #fff;
+    border: 0;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    
+}
